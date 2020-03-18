@@ -1,0 +1,80 @@
+html{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+}
+ul,p,h1{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .header{
+      height: 56px;
+      width: 1920px;;
+      display: flex;
+      background-color: #343A40;
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 390px;
+  }
+  .nav-link {
+    color: #FFFFFF;
+    display: flex;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .site-name{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 404px;
+    margin-top: 14px;
+    width: 350px;
+  }
+  .welcome{
+      width: 1110px;
+      height: 376px;
+      background-color: #E9ECEF;
+      margin-top: 24px;
+      margin-left: 405px;
+      border-radius: 4px;
+  }
+  .welcome > h1{
+      font-size: 72px;
+      color: #000000;
+      font-weight: lighter;
+      margin-left: 33px;
+      margin-top: 65px;
+  }
+  .welcome > p{
+      font-weight: lighter;
+      margin-left: 33px;
+      margin-top: 25px;
+      height: 90px;
+  }
+  .welcome > div{
+      padding-left: 33px;
+  }
+  .welcome > div > button{
+      background-color: #007BFF;
+      color: #FFFFFF;
+      height: 48px;
+      width: 199px;
+      font-size: 20px;
+    border-radius: 4.8px;
+    border-style: none;
+  }
