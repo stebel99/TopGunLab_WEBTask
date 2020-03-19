@@ -136,3 +136,26 @@ border-radius: 3px;
   font-family: 'Segoe UI';
   font-size: 16px;
 }
+.info{
+  width: 1110px;
+  height: 114px;
+  margin-left: 405px;
+  margin-top: 114px;
+  background-color: #6C757D;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 47px;
+}
+
+.footer{
+  width: 1920px;
+  height: 120px;
+  background-color: #343A40;
+  color: #FFFFFF;
+  margin-top: 117px;
+  padding-top: 60px;
+  padding-left: 754px;
+  font-weight: 500;
+}
