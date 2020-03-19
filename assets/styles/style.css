@@ -78,3 +78,61 @@ ul,p,h1{
     border-radius: 4.8px;
     border-style: none;
   }
+  .cards{
+    width: 1110px;
+    margin-left: 405px;
+    margin-top: 75px;
+  }
+  .cards > ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  .card{
+    height: 430px;
+    width: 255px;
+border-style: solid;
+border-color: #DFDFDF;
+position: relative;
+border-radius: 3px;
+  }
+  .image{
+    width: 100%;
+    height: 166.2px;
+    border-radius: 2px 2px 0 0;
+  }
+
+.cards > ul > li > h1{
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 21px;
+  margin-top: 19.8px;
+}
+.cards > ul > li > p{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+.card-but{
+  height: 63px;
+  width: 100%;
+  background-color: #F7F7F7;
+  position: absolute;
+  bottom: 0;
+  border-top:#DFDFDF ;
+  border-top-style: solid;
+  text-align: center;
+}
+.card-but> button{
+  margin-top: 13px;
+  width: 136px;
+  height: 38px;
+  border-style: none;
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border-radius: 4.8px;
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
